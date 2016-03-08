@@ -8,6 +8,6 @@ have good days :)
                       s0l0n3t
 
   İRC:
-    server : 2600net
-    roomid: #1102
-            # Use everytime linux for os systems.
+  server : 2600net
+  roomid: #1102
+# Use everytime linux for os systems.
