@@ -15,7 +15,7 @@ print
 
 def oku(say):
     if (os.name == "nt" or "dos"):
-        os.chdir("C://Users/©™®FURKAN™©/Desktop")
+        
         dosya = open("key.txt","w")
         dosya.write("%s" %(say))
         open("key.txt").read()
