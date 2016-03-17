@@ -8,14 +8,14 @@ sys.path
 
 
 print """
-        ›f you wanna 126-bit password
+        √ùf you wanna 128-bit password
                 "Enter Anythings ! "."""
 print
 
 
 def oku(say):
     if (os.name == "nt" or "dos"):
-        os.chdir("C://Users/©ôÆFURKANô©/Desktop")
+        os.chdir("C://Users/¬©‚Ñ¢¬ÆFURKAN‚Ñ¢¬©/Desktop")
         dosya = open("key.txt","w")
         dosya.write("%s" %(say))
         open("key.txt").read()
@@ -29,7 +29,7 @@ def oku(say):
 
 def tanim():
         laps = ["a","b","c","d","e","f","g","h","j","k","l","m","n","p","r","s","t","v","w","x","v","z"]
-        maps = ["@","$","Ä","!","#","%","&"]
+        maps = ["@","$","‚Ç¨","!","#","%","&"]
         second = ["1","2","3","4","5","6","7","8","9","0"]
         a1=random.choice(laps)
         a2=random.choice(laps)
