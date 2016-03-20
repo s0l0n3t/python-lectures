@@ -5,9 +5,9 @@
   and go your directory. 
   write python2 [file name].py
 have good days :)
-                      s0l0n3t
+                      
 
   İRC:
   server : irc.2600.net
-  roomid: #1102
+  roomid: #1102             
 # Use everytime linux for os systems.
