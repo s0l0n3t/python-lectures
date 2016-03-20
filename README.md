@@ -2,7 +2,7 @@
 
   İf you wanna use;
   
-  use with console because python2.7 is using with console.
+  Open your terminal because python2.7 is using with console.
   and go your directory. 
   write python2 [file name].py
 
