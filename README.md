@@ -1,6 +1,6 @@
 # modules
 
-  İf you wanna use
+  İf you wanna use;
   
   use with console because python2.7 is using with console.
   and go your directory. 
