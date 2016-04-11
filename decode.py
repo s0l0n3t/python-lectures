@@ -2,12 +2,12 @@
 import sys
 sys.path
 
-print """Dosya okutmayacaksan boþ býrak. """
+print """Dosya okutmayacaksan bos birak. """
 
 def decode():
     sy = raw_input("okunacak dosya :")
     if sy is "":
-        msg =raw_input("þifre :")
+        msg =raw_input("sifre :")
         sifreli_msg="""%s"""%(msg)
     else:
         
@@ -17,18 +17,19 @@ def decode():
     
     
 
-    sozluk = {"z":"a", "v":"b" , "w":"c" ,
+    sozluk = {"z":"a", "v":"b" , "w":"0" ,
               "l":"d", "n":"e" , "i":"f" ,
-              "h":"g", "s":"ç" , "a":"ð" ,
-              "g":"h", "f":"i" , "ç":"ý" ,
-              "d":"j", "j":"k" , "k":"l" ,
+              "h":"g", "c":"s" , "i":"a" ,
+              "g":"h", "c":"w" ,"f":"j",
+              "j":"k" , "k":"l" ,
               "t":"m", "b":"n" , "e":"o" ,
-              "m":"ö", "j":"p" , "p":"r" ,
-              "ö":"s", "s":"ç" , "c":"t" ,
-              "þ":"u", "ý":"ü" , "k":"v" ,
+              "m":"t", "0":"p" , "p":"r" ,
+              "u":"s",
+              "d":"u", "y":"v" ,
               "o":"y", "r":"z"}
 
     sifresiz_msg = ""
+    
     for harf in sifreli_msg:
          sifresiz_msg += sozluk.get(harf,harf)
 
@@ -36,8 +37,8 @@ def decode():
     global sifresiz_msg
     
 def yaz():
-    asg = raw_input("dosya adý :")
-    sg = open(asg,"a")
+    asg = raw_input("yazilacak dosya adi :")
+    sg = open(asg+".txt","a")
     sg.write(":%s"%(sifresiz_msg))
 
 decode()
