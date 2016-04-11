@@ -65,7 +65,7 @@ def main():
 		  user = raw_input("kaydet yada ac :")
 		  if user == "kaydet":
 		      dosya = open("%s"%(database.name),"w")
-		      dosya.write(int("%s"%(database.money)))
+		      dosya.write("%s"%(database.money))
 		      dosya.close()
 		      print "başarılı."
 		      return
