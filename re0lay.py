@@ -1,17 +1,15 @@
 #-*-coding:cp1254-*-
-#s0l0n3t
+#github.com/s0l0n3t/modules
 import sys
-sys.path
 import os
 import random
 import time
+sys.path
 
 
 class sepp:
     def __init__(self):
         self.system = os.name
-        self.url = "https://realpython.com/learn/python-first-steps/images/pythonlogo.jpg"
-        self.safely =os.chdir("C://Users/bilgisayar/Desktop")
         self.abc = ["a","b","c","d","e","f","g","h","j","k","l","m","n","o","p","r","s","t","v","y","z"]
         self.number = ["1","2","3","4","5","6","7","8","9","0"]
 	
@@ -19,14 +17,14 @@ class sepp:
 slain = sepp()
 
 
-def dosya():
+def files():
 	for i in seath:
 	    print a1 + i
 	dosya = open("hash.txt","a")
 	dosya.write("\n%s\n"%(a1 + i))
 	dosya.close
 
-def pas():
+def main():
  try:
     if slain.system  in "nt":
         print "for exit :Ctrl + C\n"
@@ -44,8 +42,8 @@ tim = int(time.clock())
 global tim
 
 while True:
-    pas()
-    dosya()
+    main()
+    files()
     continue
     
     
