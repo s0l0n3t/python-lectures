@@ -5,7 +5,7 @@ import time
 sys.path
 
 
-print """ lütfen þifrenin çözümlenebilmesi için bekleyiniz. """
+print """ lÃ¼tfen Ã¾ifrenin Ã§Ã¶zÃ¼mlenebilmesi iÃ§in bekleyiniz. """
 a =time.asctime()
 print a
 
@@ -27,7 +27,7 @@ def tanim(right):
     
     if len(ays) == 1:
         spp1 = sy1
-        print "çözümleniyor..."
+        print "Ã§Ã¶zÃ¼mleniyor..."
         if spp1 in ays:
             print
             print a
@@ -36,7 +36,7 @@ def tanim(right):
 
     if len(ays) == 2:
         spp2 = sy1 + sy2
-        print "çözümleniyor..."
+        print "Ã§Ã¶zÃ¼mleniyor..."
         if spp2 in ays:
             print
             print a
@@ -45,7 +45,7 @@ def tanim(right):
 
     if len(ays) == 3:
         spp3 = sy1 + sy2 + sy3
-        print "çözümleniyor..."
+        print "Ã§Ã¶zÃ¼mleniyor..."
         if spp3 in ays:
             print
             print a
@@ -54,7 +54,7 @@ def tanim(right):
 
     if len(ays) == 4:
         spp4 = sy1 + sy2 + sy3 + sy4
-        print "çözümleniyor..."
+        print "Ã§Ã¶zÃ¼mleniyor..."
         if spp4 in ays:
                print
                print a
@@ -62,7 +62,7 @@ def tanim(right):
                sys.exit()
     if len(ays) == 5:
         spp5 = sy1 + sy2 + sy3 + sy4 + sy5
-        print "çözümleniyor..."
+        print "Ã§Ã¶zÃ¼mleniyor..."
         if spp5 in ays:
             print
             print a
@@ -71,7 +71,7 @@ def tanim(right):
 
     if len(ays) == 6:
         spp6 = sy1 + sy2 + sy3 + sy4 + sy5 + sy6
-        print "çözümleniyor..."
+        print "Ã§Ã¶zÃ¼mleniyor..."
         if spp6 in ays:
             print
             print a
@@ -80,7 +80,7 @@ def tanim(right):
 
     if len(ays) == 7:
         spp7 = sy1 + sy2 + sy3 + sy4 + sy5 + sy6 + sy7
-        print "çözümleniyor..."
+        print "Ã§Ã¶zÃ¼mleniyor..."
         if spp7 in ays:
             print
             print a
@@ -88,7 +88,7 @@ def tanim(right):
             sys.exit()
     if len(ays) == 8:
         spp8 = sy1 + sy2 + sy3 + sy4 + sy5 + sy6 + sy7 + sy8
-        print "çözümleniyor..."
+        print "Ã§Ã¶zÃ¼mleniyor..."
         if spp8 in ays:
             print
             print a
@@ -97,7 +97,7 @@ def tanim(right):
 
     if len(ays) == 9:
         spp9 = sy1 + sy2 + sy3 + sy4 + sy5 + sy6 + sy7 + sy8 + sy9
-        print "çözümleniyor..."
+        print "Ã§Ã¶zÃ¼mleniyor..."
         if spp9 in ays:
             print
             print a
