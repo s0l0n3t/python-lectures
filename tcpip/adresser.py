@@ -53,7 +53,7 @@ while True:
                 else:
                         break
         
-#only there.but i will do it . Ý haven't got any time
+#only there.but i will do it . i haven't got any time
                 
                 
         
