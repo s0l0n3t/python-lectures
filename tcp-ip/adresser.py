@@ -1,5 +1,5 @@
 #-*-coding:cp1254-*-
-#s0l0n3t
+#github.com/s0l0n3t/modules
 import re
 import urllib2 , urllib
 import time
