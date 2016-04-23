@@ -1,4 +1,6 @@
 #-*-coding:cp1254-*-
+#github.com/s0l0n3t/modules
+
 import os
 import sys
 import time
