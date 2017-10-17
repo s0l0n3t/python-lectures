@@ -13,7 +13,7 @@ def lxx(self):
   self.urllib.urlretrieve(a1,"module"+str(try))
   b=open("module").read()
   if (os.name == "posix"):
-      self.os.system("mv /home/root/Desktop/module /home/root/Desktop/files ")
+      self.os.system("mv /*/*/Desktop/module /*/*/Desktop/files ")
       try +=1
   else:
      print "coming soon"
