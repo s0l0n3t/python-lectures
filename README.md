@@ -1,5 +1,5 @@
 # Summary
-***This repository is lecture storage.***
+*This repository is lecture storage.*
 
 ## Using
 `python2 [file name].py`
