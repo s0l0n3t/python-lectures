@@ -4,7 +4,8 @@
 ## Using
 `python2 [file name].py`
 
-                      
+
+## For Questions
 ```JSON
 {
    "server":"irc.2600.net",
