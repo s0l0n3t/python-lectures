@@ -4,8 +4,7 @@ import os
 import sys
 sys.path
 
-try=1
-global try
+global try=1
 
 def lxx(self):
   
