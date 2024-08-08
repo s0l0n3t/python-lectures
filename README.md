@@ -1,16 +1,15 @@
-# modules
+# Summary
+***This repository is lecture storage.***
 
-  İf you wanna use;
-  
-  Open your terminal because python2.7 is using with console.
-  and go your directory. 
-  write python2 [file name].py
+## Using
+`python2 [file name].py`
 
-  have good days :)
                       
+```JSON
+{
+   "server":"irc.2600.net",
+   "roomid":"#1102"
+}          
+```
 
-İRC
-  server: irc.2600.net
-  roomid: #1102             
-
-# Use everytime linux for os systems.
+* We recommend linux os.
